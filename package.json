@@ -1,0 +1,35 @@
+{
+  "name": "learningapp",
+  "version": "1.0.0",
+  "description": "Basic algorithms template",
+  "scripts": {
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "author": "Serghei Beleaev",
+  "license": "ISC",
+  "browserslist": "> 0.25%, not dead",
+  "private": "true",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "path": "^0.12.7",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "@tsconfig/node12": "^1.0.7"
+  }
+}
