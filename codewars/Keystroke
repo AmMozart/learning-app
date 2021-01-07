@@ -1,0 +1,25 @@
+#include <string.h>
+int num_key_strokes(const char* text) {
+int n=0;
+  for(int i=0;i<strlen(text);i++)
+  {
+      switch (text[i])
+        {
+        case '['  :  n++; break;
+        case ']'  :  n++; break;
+        case '\\'  : n++; break;
+        case ','  :  n++; break;
+        case '.'  :  n++; break;
+        case '/'  :  n++; break;
+        case ';'  :  n++; break;
+        case '\''  : n++; break;
+        case ' '  : n++; break;   
+        case '-'  : n++; break;  
+        case '`'  : n++; break;  
+        case '='  : n++; break;    
+        default:  if((text[i]>95) && (text[i]<123)||((text[i]>47) && (text[i]<58)) ) n++; else n=n+2; ;break; 
+      }
+//     printf("step %d  n=%d  sym=%c \n",i,n,text[i]); 
+  }
+  return n;
+}
