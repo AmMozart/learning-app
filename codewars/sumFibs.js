@@ -12,3 +12,5 @@ function sumFibs(n) {
     .filter(val => !(val % 2))
     .reduce((sum, val) => sum + val)
 }
+
+module.exports = sumFibs
