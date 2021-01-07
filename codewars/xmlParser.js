@@ -16,3 +16,4 @@ function catalog(s, article) {
       , '')
     : 'Nothing'
 }
+module.exports = catalog
