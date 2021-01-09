@@ -14,5 +14,6 @@
 // import '../js/13_SOLID'
 // import './14_TypeJS.ts'
 // import './webSocket.js'
-import '../../codewars/sumFibs.js'
+// import '../../codewars/sumFibs.js'
+import '../../codewars/moveZerosToEnd.js'
 // import sumFibs from '../../codewars/sumFibs.js'

@@ -12,3 +12,4 @@ function removeZeros(array) {
   }
   return array;
 }
+module.exports = removeZeros
