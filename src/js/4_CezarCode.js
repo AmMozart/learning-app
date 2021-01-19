@@ -1,5 +1,3 @@
-
-
 function getUtfArrayFromAsciiArray(arr) {
   return arr.map(code => String.fromCharCode(code))
 }
@@ -25,4 +23,3 @@ function cezarCode(str = '') {
 }
 
 console.log(`input A B C ==> ${cezarCode('A B C')}`)
-
