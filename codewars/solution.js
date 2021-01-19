@@ -5,3 +5,4 @@ function solution(number) {
   }
   return result
 }
+solution()
